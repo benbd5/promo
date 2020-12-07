@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promo</title>
+</head>
+
+<body>
+
+    <h1>Convertisseur de prix</h1>
+
+    <br>
+
+    <h2>Remise 50%</h2>
+    <input type="text" id="remise50">
+    <button id="btn50" onclick="remise50()" value="0.5">Indiquez votre prix</button>
+    <p id="answer"></p>
+
+    <br>
+
+    <h2>Remise 70%</h2>
+    <input type="text" id="remise70">
+    <button id="btn70" onclick="remise70()" value="0.3">Indiquez votre prix</button>
+    <p id="answer2"></p>
+
+    <br>
+
+    <h2>Remise à saisir</h2>
+    Votre prix<input type="text" id="remiseFree1">
+    <br>
+    <br>
+    x
+    <br>
+    <br>
+    Montant remise (en %)<input type="text" id="remiseFree2">
+
+    <br>
+    <br>
+
+    <button id="btnFree" onclick="globalFree()">Indiquez votre prix</button>
+    <p id="answerFree"></p>
+
+</body>
+<script src="./app.js"></script>
+
+</html>
